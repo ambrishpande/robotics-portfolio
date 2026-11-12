@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ambrish Vidhyadhar Pande — Robotics Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio of Ambrish Vidhyadhar Pande, Robotics Engineer in Pune, India. Featuring PBR Three.js models of a Unitree/Atlas-style humanoid, 6-wheeled autonomous scout rover, and 6-DOF industrial manipulator with live teleop kinematics."
+    />
+    <meta property="og:title" content="Ambrish Vidhyadhar Pande — Robotics Engineer" />
+    <meta
+      property="og:description"
+      content="Industrial Robotics Engineer Portfolio featuring PBR 3D robots, hash-routed station navigation, and 6-DOF live kinematics teleop."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts: Inter + JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Three.js & Addons via HTTPS CDN Import Map -->
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+          "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-[#0B101B] text-[#F8FAFC] antialiased overflow-hidden selection:bg-blue-600/30 selection:text-slate-100">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
